@@ -4,45 +4,103 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
 
 /* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: #fff;
+}
 
+.logo {
+
+   height: 30px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.p-jumbotron {
+    width: 850px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.left {
+    background-color: #fff;
+    padding: 17px;
+    margin-right: 10px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
+
+.right {
+    background-color: black;
+    color: #fff;
+    margin-left: 10px;
+    padding: 17px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+}
+
+i {
+    padding-right: 10px;
+}
 
 /* header */
-
-.upper-header {
-    min-height: 80px; 
-    background-color: lightblue;
-    display: flex; 
-    justify-content: center;
-    align-items: center;  
+header {
+    background-color: #255EE9;
 }
 
-/* upper header */
-.side-nav {
-    flex-basis: 13%;
-    min-height: 48px;
-    background-color: #da2020;
-    border: 2px dashed black;
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    text-align: center;
 }
 
-.center-nav {
-    flex-basis: 36%;
-    min-height: 48px;
-    background-color: #da2020;
-    border: 2px dashed black;
+nav > * {
+    flex-basis: 20%;    
+    padding: 10px 0;
 }
 
-/* lower header */
+.nav-menu {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-login {
+    flex-basis: 15%;
+    min-height: 40px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .lower-header {
     width: 100%;
-    min-height: 500px; 
+    min-height: 600px; 
     background-color: darkblue;
     display: flex;
     justify-content: center;
@@ -50,10 +108,22 @@
 }
 
 .jumbotron {
-    flex-basis: 50%;
-    min-height: 400px;
-    background-color: yellow;
-    border: 2px dashed black;
+    width: 100%;
+    min-height: 600px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 60px;
+    
+} 
+
+.download {
+    padding-top: 15px;
+    font-size: 1.1rem;
 }
 
 /* main */
