@@ -20,13 +20,12 @@ a {
 }
 
 .logo {
-
    height: 35px;
 }
 
 button {
-    padding: 10px;
-    border-radius: 16px;
+    padding: 11px;
+    border-radius: 21px;
     border: none;
     cursor: pointer;
     background-color: #fff;
@@ -120,7 +119,7 @@ i {
     color: #fff;
 }
 
-.padding-single{ 
+.padding-icons { 
     padding-right: 15px;
 }
 
@@ -193,7 +192,7 @@ ul {
     list-style-type: none;
 }
 
-.color-single {
+.color-title {
     color: #6C82CF;
 }
 
@@ -253,6 +252,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .large-card {
@@ -270,7 +270,7 @@ li {
 }
 
 /* .upper-footer */
-.head-footer {
+.container-footer{
     width: 100%;
     min-height: 300px;
     background-color: #23272A;
@@ -284,7 +284,7 @@ li {
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
-    min-height: 650px; 
+    min-height: 500px; 
     background-color: #23272A;
     padding-top: 10px;    
 }
@@ -303,24 +303,34 @@ li {
 .lower-footer {
     width: 100%;
     min-height: 100px;
-    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: flex-end;  
+    padding-bottom: 40px;
+    background-color: #23272A;
 }
 
 .bottom-nav {
-    flex-basis: 62%;
-    min-height: 60px; 
-    background-color: green;
+    flex-basis: 72%;
+    min-height: 100px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid #6C82CF;
 }
 
-.aside-nav {
+.sign {
     flex-basis: 8%;
     min-height: 30px;
-    background-color: #da2020;
-    border: 2px dashed black;;
+    margin-top: 30px;
+}
+
+.bottom-logo {
+    height: 35px;
+    margin-top: 30px;
+}
+
+.color-button {
+    background-color: #6C82CF;
+    color: #fff;
 }
