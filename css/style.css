@@ -53,6 +53,7 @@ h5 {
     font-size: 1.8rem;
     padding-bottom: 20px;
     padding-top: 40px;
+    color: #6C82CF;
 }
 
 p {
@@ -106,6 +107,21 @@ i {
     margin-top: -10px;
     margin-left: -10px;
     margin-bottom: 20px;
+}
+
+.text-ita {
+    display: inline-block;
+    color: #fff;
+}
+
+
+.icons {
+    display: flex;
+    color: #fff;
+}
+
+.padding-single{ 
+    padding-right: 15px;
 }
 
 /* header */
@@ -169,6 +185,23 @@ nav > * {
     font-size: 1.1rem;
 }
 
+#img-ita {
+    width: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.color-single {
+    color: #6C82CF;
+}
+
+li {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
 /* main */
 .box-top-bottom {
     width: 100%;
@@ -237,34 +270,33 @@ nav > * {
 }
 
 /* .upper-footer */
-.upper-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.head-footer {
     width: 100%;
-    min-height: 650px; 
+    min-height: 300px;
     background-color: #23272A;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.upper-footer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    min-height: 650px; 
+    background-color: #23272A;
     padding-top: 10px;    
 }
 
 .col {
-    background-color: yellow;
-    flex-basis: 18%;
-    min-height: 600px;
-    border: 2px dashed black;
-    color: #7289DA;
+    padding-top: 20px;
 }
 
 .cols {
-    background-color: yellow;
-    flex-basis: 11%;
-    min-height: 600px;
-    border: 2px dashed black;
-    padding-top: 40px;
-    color: #7289DA;
+   flex-basis: 13%;
+   min-height: 430px;
+   padding-top: 70px;
 }
 
 /* lower footer */
