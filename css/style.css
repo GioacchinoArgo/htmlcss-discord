@@ -1,0 +1,174 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+/* Utils */
+
+
+
+/* header */
+
+.upper-header {
+    min-height: 80px; 
+    background-color: lightblue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+}
+
+/* upper header */
+.side-nav {
+    flex-basis: 13%;
+    min-height: 48px;
+    background-color: #da2020;
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+
+}
+
+.center-nav {
+    flex-basis: 36%;
+    min-height: 48px;
+    background-color: #da2020;
+    border: 2px dashed black;
+}
+
+/* lower header */
+.lower-header {
+    width: 100%;
+    min-height: 500px; 
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.jumbotron {
+    flex-basis: 50%;
+    min-height: 400px;
+    background-color: yellow;
+    border: 2px dashed black;
+}
+
+/* main */
+.box-top-bottom {
+    width: 100%;
+    min-height: 600px; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.box-center {
+    width: 100%;
+    min-height: 600px; 
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card-left {
+    flex-basis: 38%;
+    min-height: 500px;
+    background-color: purple;
+    border: 2px dashed black;
+}
+
+.card-right {
+    flex-basis: 24%;
+    min-height: 500px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.card-center-left {
+    flex-basis: 24%;
+    min-height: 500px;
+    background-color: purple;
+    border: 2px dashed black;
+}
+
+.card-center-right {
+    flex-basis: 38%;
+    min-height: 500px;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.large-box {
+    width: 100%;
+    min-height: 1100px; 
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.large-card {
+    flex-basis: 62%;
+    min-height: 980px;
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
+
+/* .upper-footer */
+.upper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 650px; 
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;    
+}
+
+.col {
+    background-color: yellow;
+    flex-basis: 18%;
+    min-height: 600px;
+    border: 2px dashed black;
+}
+
+.cols {
+    background-color: yellow;
+    flex-basis: 11%;
+    min-height: 600px;
+    border: 2px dashed black;
+}
+
+/* lower footer */
+.lower-footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.bottom-nav {
+    flex-basis: 62%;
+    min-height: 60px; 
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-nav {
+    flex-basis: 8%;
+    min-height: 30px;
+    background-color: #da2020;
+    border: 2px dashed black;;
+}
